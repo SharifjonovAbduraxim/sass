@@ -1,0 +1,454 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  scroll-behavior: smooth;
+}
+
+section#home {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(20200429211042-GettyImages-1164615296.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+section#home .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(255, 253, 253);
+  height: 10vh;
+  width: 100%;
+  position: fixed;
+  background-color: rgb(97, 93, 100);
+}
+section#home .navbar .logo i {
+  font-size: 25px;
+  margin-left: 30px;
+}
+section#home .navbar .logo i:hover {
+  color: black;
+}
+section#home .navbar .menu {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  justify-content: space-between;
+  margin-right: 30px;
+}
+section#home .navbar .menu li {
+  list-style: none;
+}
+section#home .navbar .menu li a {
+  text-decoration: none;
+  color: white;
+}
+section#home .navbar .menu li a:hover {
+  color: black;
+}
+section#home .home-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  line-height: 40px;
+  color: white;
+}
+section#home .home-main h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: white;
+}
+section#home .home-main button {
+  padding: 10px 50px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+section#about {
+  padding: 100px 0;
+  background-color: whitesmoke;
+}
+section#about .about-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+section#about .about-text .img {
+  background-image: url(pngwing.com.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 70px;
+  height: 70px;
+  margin: 30px 0;
+}
+section#about .about-text h1 {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 25px;
+}
+section#about .about-text p {
+  width: 70%;
+  text-align: center;
+}
+section#about .about-text .k {
+  width: 40px;
+  height: 3px;
+  background-color: red;
+  margin: 30px 0;
+}
+
+section#desing {
+  padding: 100px 80px;
+}
+section#desing h1 {
+  font-size: 30px;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 40px 0;
+}
+section#desing .k {
+  background-color: aqua;
+  height: 3px;
+  width: 30px;
+  margin: 30px 400px;
+}
+section#desing .cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section#desing .cards .card {
+  width: 250px;
+  height: 300px;
+  text-align: center;
+  background-color: whitesmoke;
+}
+section#desing .cards .card .icon {
+  margin-top: 30px;
+  transform: translateX(35%);
+}
+section#desing .cards .card .icon i {
+  border-radius: 50%;
+  height: 80px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  background-color: rgb(255, 255, 255);
+}
+section#desing .cards .card .text-body {
+  margin-top: 50px;
+}
+section#desing .cards .card .text-body h2 {
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+section#export {
+  display: flex;
+}
+section#export .image img {
+  width: 500px;
+  height: 100vh;
+}
+section#export .left-text {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: whitesmoke;
+}
+section#export .left-text h1 {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 900;
+  padding: 0 50px;
+}
+section#export .left-text .k {
+  background-color: red;
+  height: 3px;
+  width: 40px;
+  margin-left: 200px;
+  margin-top: 30px;
+}
+section#export .left-text p {
+  margin: 30px 0;
+  padding: 0 90px;
+}
+section#export .left-text i {
+  color: aqua;
+}
+
+section#user {
+  background-image: url(black-brick-building-wall-interior-260nw-1951369699.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+}
+section#user .text-user {
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 80vh;
+}
+section#user .text-user h2 {
+  font-size: 60px;
+}
+section#user .text-user p {
+  margin-top: 20px;
+  font-size: 15px;
+}
+section#user .text-user i {
+  margin-top: 20px;
+  font-size: 30px;
+  cursor: pointer;
+}
+section#user .text-user i:hover {
+  color: red;
+  transform: scale(1.3);
+}
+
+section#creative {
+  padding: 100px 30px;
+}
+section#creative h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+section#creative .l {
+  height: 3px;
+  width: 30px;
+  background-color: aqua;
+  margin: 20px 440px;
+}
+section#creative .cards-freeks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+section#creative .cards-freeks .card-creative {
+  width: 250px;
+  height: 350px;
+}
+section#creative .cards-freeks .card-creative .image {
+  background-image: url(canada-in-pictures-beautiful-places-to-photograph-morraine-lake.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+}
+section#creative .cards-freeks .card-creative .card-text {
+  text-align: center;
+  padding: 20px;
+}
+section#creative .cards-freeks .card-creative .card-text h1 {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 20px;
+}
+section#creative .cards-freeks .card-creative .card-text .j {
+  background-color: rgb(0, 141, 94);
+  height: 1px;
+  width: 30px;
+  margin: 20px 90px;
+}
+section#creative .cards-freeks .card-creative .card-text i {
+  color: aqua;
+  margin: 20px;
+}
+
+section#watch {
+  background-image: url(20200429211042-GettyImages-1164615296.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+}
+section#watch i {
+  border: 1px solid white;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+section#watch i:hover {
+  color: aqua;
+  border: 1px solid aqua;
+}
+
+section#members {
+  padding: 100px 30px;
+}
+section#members h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+section#members .l {
+  background-color: aqua;
+  height: 3px;
+  width: 35px;
+  margin: 20px 440px;
+}
+section#members .card-members {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+section#members .card-members .card-member {
+  width: 250px;
+  height: 400px;
+}
+section#members .card-members .card-member .image {
+  background-image: url(chumolidan-olingan-ibrat-islomiy-hikoya_616abab93b063-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+}
+section#members .card-members .card-member .text-member {
+  text-align: center;
+  padding: 10px;
+}
+section#members .card-members .card-member .text-member h1 {
+  font-weight: 900;
+}
+section#members .card-members .card-member .text-member .j {
+  background-color: rgb(0, 150, 102);
+  height: 1px;
+  width: 35px;
+  margin: 20px 100px;
+}
+section#members .card-members .card-member .text-member p {
+  margin: 20px 0;
+}
+section#members .card-members .card-member .text-member .icon-member {
+  display: flex;
+  margin: 0 80px;
+  justify-content: space-between;
+}
+section#members .card-members .card-member .text-member .icon-member i {
+  background-color: aqua;
+  height: 30px;
+  width: 30px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: white;
+  cursor: pointer;
+}
+
+section#about-newslitter {
+  background-image: url(20200429211042-GettyImages-1164615296.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+section#about-newslitter h1 {
+  color: white;
+  font-weight: 900;
+  font-size: 30px;
+}
+section#about-newslitter .btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section#about-newslitter .btns .btn {
+  margin: 20px;
+}
+section#about-newslitter .btns .btn button {
+  padding: 10px 30px;
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid white;
+  color: white;
+}
+section#about-newslitter .btns .btn-mem button {
+  background-color: white;
+  color: black;
+  padding: 10px 30px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+section#drop {
+  padding: 100px 20px;
+}
+section#drop h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+section#drop .l {
+  background-color: aqua;
+  width: 30px;
+  height: 3px;
+  margin: 20px 450px;
+}
+section#drop .cards-drop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px;
+}
+section#drop .cards-drop .card-about-your {
+  width: 200px;
+  height: 150px;
+  background-color: whitesmoke;
+}
+section#drop .cards-drop .card-about-your .kill {
+  text-align: center;
+  margin: 30px;
+}
+section#drop .cards-drop .card-about-your .kill i {
+  color: rgb(4, 156, 131);
+  font-size: 20px;
+}
+section#drop .cards-drop .card-about-your .kill h1 {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 20px;
+  margin: 10px;
+}
+section#drop .cards-drop .card-about-your .kill .j {
+  background-color: rgb(6, 133, 125);
+  height: 1px;
+  width: 35px;
+  margin: 10px 50px;
+}
+section#drop .cards-drop .card-about-your .kill p {
+  color: gray;
+}/*# sourceMappingURL=style.css.map */
